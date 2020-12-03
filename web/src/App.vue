@@ -1,8 +1,15 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Главная</router-link> |
+      <router-link to="/about">О нас</router-link> |
+      <router-link to="/about">Наш продукт</router-link> |
+      <router-link to="/about">Ассортимент</router-link> |
+      <router-link to="/about">Новости/Акции</router-link> |
+      <router-link to="/about">Как сделать заказ</router-link> |
+      <router-link to="/about">Доставка и оплата</router-link> |
+      <router-link to="/about">Условия возрата и обмена</router-link> |
+      <router-link to="/about">Контакты</router-link>
     </div>
     <router-view/>
   </div>
