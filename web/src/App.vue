@@ -1,39 +1,28 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Главная</router-link> |
-      <router-link to="/about">О нас</router-link> |
-      <router-link to="/about">Наш продукт</router-link> |
-      <router-link to="/about">Ассортимент</router-link> |
-      <router-link to="/about">Новости/Акции</router-link> |
-      <router-link to="/about">Как сделать заказ</router-link> |
-      <router-link to="/about">Доставка и оплата</router-link> |
-      <router-link to="/about">Условия возрата и обмена</router-link> |
-      <router-link to="/about">Контакты</router-link>
-    </div>
+    <TheHeader />
     <router-view/>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import TheHeader from '@/components/Header.vue'
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+export default {
+  name: 'App',
+  components: {
+    TheHeader
   }
 }
+</script>
+
+<style lang="sass">
+#app
+  font-family: Avenir, Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+html
+  font-size: 14px
+body
+  margin: 0
 </style>
