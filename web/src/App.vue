@@ -21,18 +21,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
 }
-
+body {
+  background-color: rgb(255, 255, 255);
+}
 #nav {
   padding: 30px;
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #000000;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #000000;
     }
   }
 }
