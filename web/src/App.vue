@@ -1,41 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Главная</router-link> |
-      <router-link to="/about">О нас</router-link> |
-      <router-link to="/about">Наш продукт</router-link> |
-      <router-link to="/about">Ассортимент</router-link> |
-      <router-link to="/about">Новости/Акции</router-link> |
-      <router-link to="/about">Как сделать заказ</router-link> |
-      <router-link to="/about">Доставка и оплата</router-link> |
-      <router-link to="/about">Условия возрата и обмена</router-link> |
-      <router-link to="/about">Контакты</router-link>
-    </div>
+    <TheHeader />
     <router-view/>
+    <TheFooter />
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #000000;
-}
-body {
-  background-color: rgb(255, 255, 255);
-}
-#nav {
-  padding: 30px;
+<script>
+import TheHeader from '@/components/Header.vue'
+import TheFooter from '@/components/Footer.vue'
 
-  a {
-    font-weight: bold;
-    color: #000000;
-
-    &.router-link-exact-active {
-      color: #000000;
-    }
+export default {
+  name: 'App',
+  components: {
+    TheHeader,
+    TheFooter
   }
 }
+</script>
+
+<style lang="sass">
+#app
+  font-family: Avenir, Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+html
+  font-size: 14px
+body
+  margin: 0
 </style>
