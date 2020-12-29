@@ -55,7 +55,7 @@ export default {
   $itemCount: 1
   .wrapper
     width: 100vw
-    height: 100vh
+    height: 50vh
     .CarouselContainer
       height: 100%
       width: 100%

@@ -3,7 +3,7 @@
     
       
     <p>
-      ВЕДУТСЯ ТЕХ РАБОТЫ
+      ВНИМАНИЕ ЭТА СТРАНИЦА В РАЗРАБОТКЕ
     </p>
     <div class="gif"></div>
   </div>
@@ -15,12 +15,12 @@
   flex-direction: column
   justify-content: center
   align-items: center
-  min-height: 100vh
-  font-size: 5.5rem
-  text-align: justify
+  min-height: 130vh
+  font-size: 4.7rem
+  text-align: center
   .gif
-      background: url('../assets/pepe.gif') center no-repeat
+      background: url('../assets/pepe1.gif') center no-repeat
       width: 100%
-      height: 300px
+      height: 600px
       background-size: contain
 </style>

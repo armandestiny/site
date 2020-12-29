@@ -3,10 +3,10 @@
     <div class="first">@2009-2020</div>
     <div class="second">
       <div class="top-content">
-        <a href="#">VKONTAKTE</a>
-        <a href="#">FACEBOOK</a>
-        <a href="#">INSTAGRAM</a>
-        <a href="#">YOUTUBE</a>
+        <a href="https://vk.com/">VKONTAKTE</a>
+        <a href="https://facebook.com/">FACEBOOK</a>
+        <a href="https://instagram.com/">INSTAGRAM</a>
+        <a href="https://youtube.com/">YOUTUBE</a>
       </div>
       <div class="bottom-content">
         Политика Конфиденциальности

@@ -3,7 +3,7 @@
     <h1></h1>
       
     <p>
-      
+      <img src="../assets/logo.png" align="center" alt=""> <br>
       ТОО «Новые образовательные технологии» (НОТ)  <br>  
       <br>
       Руководство: <br>
@@ -23,7 +23,12 @@
   width: 80%
   margin: 0 auto
   margin-top: 140px 
-  min-height: calc(100vh - 140px)
+  min-height: calc(150vh - 140px)
   font-size: 1.2rem
   text-align: justify
+img
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 200px
 </style>

@@ -3,12 +3,12 @@
     <nav>
       <router-link to="/">Главная</router-link>
       <router-link to="/about">О нас</router-link>
-      <router-link to="/ourProduct">Наш продукт</router-link>
-      <router-link to="/assortment">Ассортимент</router-link>
+      <router-link to="/OurProduct">Наш продукт</router-link>
+      <router-link to="/News">Ассортимент</router-link>
       <router-link to="/News">Новости/Акции</router-link>
-      <router-link to="/FAQ">Вопросы/Ответы</router-link>
-      <router-link to="/about">Доставка и оплата</router-link>
-      <router-link to="/about">Условия возрата и обмена</router-link>
+      <router-link to="/QA">Вопросы/Ответы</router-link>
+      <router-link to="/News">Доставка и оплата</router-link>
+      <router-link to="/News">Условия возрата и обмена</router-link>
       <router-link to="/Contacts">Контакты</router-link>
     </nav>
   </div>
